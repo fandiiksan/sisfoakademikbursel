@@ -1,6 +1,7 @@
 const CACHE_NAME = 'sisfoakademik-v1';
 var urlsToCache = [
 	'/',
+	'/dashboard/index.php',
 	'/images/icon-192x192.png',
 	'/images/icon-512x512.png',
 	'/icon.png',
