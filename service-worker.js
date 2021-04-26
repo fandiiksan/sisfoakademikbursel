@@ -4,7 +4,7 @@ var urlsToCache = [
 	'/images/icon-192x192.png',
 	'/images/icon-512x512.png',
 	'/icon.png',
-	'/js/sw.js',
+	'/sw.js',
 	'/manifest.json'
 ];
 

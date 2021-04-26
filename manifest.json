@@ -1,12 +1,11 @@
 {
-  "name": "sisfoakademik",
-  "short_name": "sisfoakademik",
-  "description": "Sistem Informasi Akademik",
-  "scope": "/",
-  "theme_color": "#009688",
-  "background_color": "#00685d",
-  "display": "standalone",
-  "start_url": "http://localhost/sisfoakademik/",
+    "name": "sisfoakademik",
+    "short_name": "sisfoakademik",
+    "description": "Sisfo Akademik sma",
+    "theme_color": "#009688",
+    "background_color": "#00685d",
+    "display": "standalone",
+  "start_url": "https://sisfosmanjuhbursel.space/",
   "icons": [
       {
           "src": "images/icon-192x192.png",

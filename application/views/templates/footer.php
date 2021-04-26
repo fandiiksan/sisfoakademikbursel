@@ -7,8 +7,7 @@
   <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
-
-<script src="<?= base_url() ?>/js/sw.js"></script>
+<script src="<?= base_url() ?>js/sw.js"></script>
 
 <!-- jQuery -->
 <script src="<?= base_url() ?>assets/js/jquery.min.js"></script>
