@@ -1,7 +1,7 @@
 <body class="hold-transition login-page" style="background-image: url('<?= base_url() ?>/assets/img/abcd.jpg');">
   <div class="login-box">
     <div class="login-logo">
-      <h2><b>Form Login</b></h2>SMAN 7 Buru Selatan</p>
+      <p><h2><b>Form Login</b></h2>SMAN 7 Buru Selatan</p>
     </div>
     <!-- /.login-logo -->
     <div class="card">
