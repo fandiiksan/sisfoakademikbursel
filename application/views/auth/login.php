@@ -1,11 +1,13 @@
 <body class="hold-transition login-page" style="background-image: url('<?= base_url() ?>/assets/img/abcd.jpg');">
   <div class="login-box">
     <div class="login-logo">
-      <p><h2><b>Form Login</b></h2>SMAN 7 Buru Selatan</p>
+      <p><h2><b>Form Login</b></h2><h4>SMAN 7 Buru Selatan</h4></p>
     </div>
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
+
+
         <form action="" method="post">
           <?php if ($this->session->flashdata('flash')): ?>
           <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -41,6 +43,8 @@
             <!-- /.col -->
           </div>
         </form>
+
+        
       </div>
       <!-- /.login-card-body -->
     </div>
