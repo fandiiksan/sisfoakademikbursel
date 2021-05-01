@@ -34,7 +34,7 @@
       <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="<?= base_url() ?>index.php/dashboard" class="brand-link">
-          <span class="brand-text font-weight-light">SMAN 8 Buru Selatan</span>
+          <span class="brand-text font-weight-light">SMAN 7 Buru Selatan</span>
         </a>
         <!-- Sidebar -->
         <div class="sidebar">
