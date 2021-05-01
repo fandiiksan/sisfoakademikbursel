@@ -18,11 +18,11 @@
             <i class="fa fa-cog"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
-            <a href="<?= base_url('profil') ?>" class="dropdown-item">
+            <a href="<?= base_url('index.php/profil') ?>" class="dropdown-item">
               <i class="fa fa-user-circle mr-2"></i> Pengaturan Akun
             </a>
             <div class="dropdown-divider"></div>
-            <a href="<?= base_url('auth/logout') ?>" class="dropdown-item">
+            <a href="<?= base_url('index.php/auth/logout') ?>" class="dropdown-item">
               <i class="fa fa-remove mr-2"></i> Logout
             </a>
           </div>
@@ -33,7 +33,7 @@
       <!-- Main Sidebar Container -->
       <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="<?= base_url() ?>dashboard" class="brand-link">
+        <a href="<?= base_url() ?>index.php/dashboard" class="brand-link">
           <span class="brand-text font-weight-light">SMAN 7 Buru Selatan</span>
         </a>
         <!-- Sidebar -->
@@ -47,7 +47,7 @@
               <?php foreach ($menus as $menu): ?>
              
                   <li class="nav-item">
-                    <a href="<?= base_url() ?><?= $menu['url'] ?>" class="nav-link">
+                    <a href="<?= base_url() ?>index.php/<?= $menu['url'] ?>" class="nav-link">
                       <i class="<?= $menu['icon'] ?>"></i>
                       <p><?= $menu['judul'] ?></p>
                     </a>
@@ -56,7 +56,7 @@
               <?php endforeach ?>
                   
                   <!-- <li class="nav-item">
-                    <a href="<?= base_url() ?>siswa" class="nav-link">
+                    <a href="<?= base_url() ?>index.php/siswa" class="nav-link">
                       <i class="far fa-user nav-icon"></i>
                       <p>
                         Siswa
@@ -64,7 +64,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?= base_url() ?>guru" class="nav-link">
+                    <a href="<?= base_url() ?>index.php/guru" class="nav-link">
                       <i class="far fa-user nav-icon"></i>
                       <p>
                         Guru
@@ -72,7 +72,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?= base_url() ?>rombel" class="nav-link">
+                    <a href="<?= base_url() ?>index.php/rombel" class="nav-link">
                       <i class="far fas fa-book nav-icon"></i>
                       <p>
                         Rombel
@@ -80,7 +80,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?= base_url() ?>jadwal" class="nav-link">
+                    <a href="<?= base_url() ?>index.php/jadwal" class="nav-link">
                       <i class="nav-icon far fa-calendar-alt"></i>
                       <p>
                         Jadwal
@@ -97,19 +97,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
-                        <a href="<?= base_url() ?>jurusan" class="nav-link">
+                        <a href="<?= base_url() ?>index.php/jurusan" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
                           <p>Jurusan</p>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="<?= base_url() ?>mapel" class="nav-link">
+                        <a href="<?= base_url() ?>index.php/mapel" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
                           <p>Mapel</p>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="<?= base_url() ?>ruangan" class="nav-link">
+                        <a href="<?= base_url() ?>index.php/ruangan" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
                           <p>Ruangan</p>
                         </a>
@@ -117,7 +117,7 @@
                     <!--   </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="<?= base_url() ?>admin" class="nav-link">
+                    <a href="<?= base_url() ?>index.php/admin" class="nav-link">
                       <i class="far fa-user nav-icon"></i>
                       <p>
                         Admin
