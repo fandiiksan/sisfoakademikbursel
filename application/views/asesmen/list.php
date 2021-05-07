@@ -36,7 +36,7 @@
 					</table>
 				</div>
 			</div>
-			<a href="<?= base_url('asesmensiswa') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
+			<a href="<?= site_url('asesmensiswa') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
 		</div>
 	</div>
 </section>

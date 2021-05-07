@@ -12,7 +12,7 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="clearfix">
-					<a class="btn btn-primary mb-3 float-right" href="<?= base_url() ?>mengajar/tambah">Tambah Mengajar</a>
+					<a class="btn btn-primary mb-3 float-right" href="<?= site_url() ?>mengajar/tambah">Tambah Mengajar</a>
 				</div>
 				<table id="table_id" class="table">
 					<thead>
@@ -35,8 +35,8 @@
 							<td><?= $ngajar['nama_mapel']; ?></td>
 							<td><?= $ngajar['nama_rombel']; ?></td>
 							<td width="200">
-								<a href="<?= base_url() ?>mengajar/ubah/<?= $ngajar['id'] ?>"><span class="badge badge-warning">Edit</span></a>
-								<a href="<?= base_url() ?>mengajar/hapus/<?= $ngajar['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
+								<a href="<?= site_url() ?>mengajar/ubah/<?= $ngajar['id'] ?>"><span class="badge badge-warning">Edit</span></a>
+								<a href="<?= site_url() ?>mengajar/hapus/<?= $ngajar['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
 							</td>
 						</tr>
 						<?php $no++ ?>

@@ -12,7 +12,7 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="clearfix">
-					<a class="btn btn-primary mb-3 float-right" href="<?= base_url() ?>rombel/tambah">Tambah Rombel</a>
+					<a class="btn btn-primary mb-3 float-right" href="<?= site_url() ?>rombel/tambah">Tambah Rombel</a>
 				</div>
 				<table id="table_id" class="table">
 					<thead>
@@ -31,8 +31,8 @@
 							<td><?= $rom['nama_rombel']; ?></td>
 							<td><?= $rom['nama_jurusan']; ?></td>
 							<td width="200">
-								<a href="<?= base_url() ?>rombel/ubah/<?= $rom['id'] ?>"><span class="badge badge-warning">Edit</span></a>
-								<a href="<?= base_url() ?>rombel/hapus/<?= $rom['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
+								<a href="<?= site_url() ?>rombel/ubah/<?= $rom['id'] ?>"><span class="badge badge-warning">Edit</span></a>
+								<a href="<?= site_url() ?>rombel/hapus/<?= $rom['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
 							</td>
 						</tr>
 						<?php $no++ ?>

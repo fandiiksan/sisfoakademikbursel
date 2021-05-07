@@ -12,7 +12,7 @@
 				</div>
 				<?php endif ?>
 				<div class="form-group">
-					<img width="200" class="img-thumbnail" src="<?= base_url() ?>assets/img/<?= $user['image'] ?>">
+					<img width="200" class="img-thumbnail" src="<?= site_url() ?>assets/img/<?= $user['image'] ?>">
 				</div>
 				<div class="form-group">
 					<div class="custom-file">
@@ -23,7 +23,7 @@
 				</div>
 				<button type="submit" name="submit" class="btn btn-primary float-right">Ubah</button>
 			</form>
-			<a href="<?= base_url('profil') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
+			<a href="<?= site_url('profil') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
 		</div>
 	</div>
 </div>

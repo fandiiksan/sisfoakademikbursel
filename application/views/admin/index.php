@@ -12,7 +12,7 @@
 		</div>
 		<?php endif ?>
 		<div class="clearfix">
-			<a class="btn btn-primary mb-3 float-right" href="<?= base_url() ?>admin/tambah">Tambah Admin</a>
+			<a class="btn btn-primary mb-3 float-right" href="<?= site_url() ?>admin/tambah">Tambah Admin</a>
 		</div>
 		<table id="table_id" class="table table-hover">
 			<thead>
@@ -50,8 +50,8 @@
 						 ?>
 					</td>					
 					<td width="200">
-						<a href="<?= base_url() ?>admin/resetPassword/<?= $user['id'] ?>/<?= $user['id_role'] ?>"><span class="badge badge-primary">Reset Password</span></a>
-						<a href="<?= base_url() ?>admin/hapus/<?= $user['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
+						<a href="<?= site_url() ?>admin/resetPassword/<?= $user['id'] ?>/<?= $user['id_role'] ?>"><span class="badge badge-primary">Reset Password</span></a>
+						<a href="<?= site_url() ?>admin/hapus/<?= $user['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
 					</td>
 				</tr>
 				<?php $no++ ?>

@@ -12,7 +12,7 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="clearfix">
-					<a class="btn btn-primary mb-3 float-right" href="<?= base_url() ?>ruangan/tambah">Tambah Ruangan</a>
+					<a class="btn btn-primary mb-3 float-right" href="<?= site_url() ?>ruangan/tambah">Tambah Ruangan</a>
 				</div>
 				<table id="table_id" class="table">
 					<thead>
@@ -29,8 +29,8 @@
 							<td><?= $no; ?></td>
 							<td><?= $ruang['nama_ruangan']; ?></td>
 							<td width="200">
-								<a href="<?= base_url() ?>ruangan/ubah/<?= $ruang['id'] ?>"><span class="badge badge-warning">Edit</span></a>
-								<a href="<?= base_url() ?>ruangan/hapus/<?= $ruang['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
+								<a href="<?= site_url() ?>ruangan/ubah/<?= $ruang['id'] ?>"><span class="badge badge-warning">Edit</span></a>
+								<a href="<?= site_url() ?>ruangan/hapus/<?= $ruang['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
 							</td>
 						</tr>
 						<?php $no++ ?>

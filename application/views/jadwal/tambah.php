@@ -55,7 +55,7 @@
 					<span id="tambah" class="btn btn-secondary">+</span><br>
 					<button type="submit" name="tambah" class="btn btn-primary float-right">Tambah</button>
 				</form>
-				<a href="<?= base_url('jadwal') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
+				<a href="<?= site_url('jadwal') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
 			</div>
 		</div>
 	</div>

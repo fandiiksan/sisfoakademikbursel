@@ -22,7 +22,7 @@
 								<td><?= $sis['nis'] ?></td>
 								<td><?= $sis['nama'] ?></td>
 								<td>
-									<a href="<?= base_url() ?>asesmen/data/<?= $id_mengajar ?>/<?= $sis['id'] ?>"><span class="badge badge-primary">Asesmen</span></a>
+									<a href="<?= site_url() ?>asesmen/data/<?= $id_mengajar ?>/<?= $sis['id'] ?>"><span class="badge badge-primary">Asesmen</span></a>
 								</td>
 							</tr>
 							<?php $no++ ?>
@@ -32,7 +32,7 @@
 					</table>
 				</div>
 			</div>
-			<a href="<?= base_url('asesmen') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
+			<a href="<?= site_url('asesmen') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
 		</div>
 	</div>
 </section>

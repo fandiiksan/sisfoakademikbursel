@@ -5,7 +5,7 @@
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <div class="text-center">
-                            <img class="profile-user-img img-fluid img-circle" src="<?= base_url() ?>/assets/img/<?= $guru['image'] ?>">
+                            <img class="profile-user-img img-fluid img-circle" src="<?= site_url() ?>/assets/img/<?= $guru['image'] ?>">
                         </div>
                         <h3 class="profile-username text-center"><?= $guru['nama'] ?></h3>
                         <p class="text-muted text-center"><?= "Guru" ?></p>
@@ -38,7 +38,7 @@
                                 <b>No HP/ WA</b> <a class="float-right"><?= $guru['no_hp'] ?></a>
                             </li>
                         </ul>
-                        <a href="<?= base_url('guru') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
+                        <a href="<?= site_url('guru') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
                     </div>
                 </div>
             </div>

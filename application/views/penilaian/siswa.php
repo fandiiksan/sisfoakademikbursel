@@ -24,7 +24,7 @@
 								<?php echo "Belum Ada Nilai" ?>
 							<?php endif ?></td>
 							<td><?php if ($nil['nilai_akhir'] != NULL): ?>
-								<a href="<?= base_url() ?>nilaisiswa/detail/<?= $nil['id'] ?>"><span class="badge badge-primary">Detail</span></a>
+								<a href="<?= site_url() ?>nilaisiswa/detail/<?= $nil['id'] ?>"><span class="badge badge-primary">Detail</span></a>
 								<?php else: ?>
 								<span class="badge badge-secondary">Detail</span>
 							<?php endif ?></td>

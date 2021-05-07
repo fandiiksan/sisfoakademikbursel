@@ -12,7 +12,7 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="clearfix">
-					<a class="btn btn-primary mb-3 float-right" href="<?= base_url() ?>jadwal/tambah">Tambah Jadwal</a>
+					<a class="btn btn-primary mb-3 float-right" href="<?= site_url() ?>jadwal/tambah">Tambah Jadwal</a>
 				</div>
 				<table id="table_jadwal" class="table">
 					<thead>
@@ -41,8 +41,8 @@
 							<td><?= $jad['nama_rombel']; ?></td>
 							<td><?= $jad['nama_ruangan']; ?></td>
 							<td width="200">
-								<a href="<?= base_url() ?>jadwal/ubah/<?= $jad['id'] ?>"><span class="badge badge-warning">Edit</span></a>
-								<a href="<?= base_url() ?>jadwal/hapus/<?= $jad['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
+								<a href="<?= site_url() ?>jadwal/ubah/<?= $jad['id'] ?>"><span class="badge badge-warning">Edit</span></a>
+								<a href="<?= site_url() ?>jadwal/hapus/<?= $jad['id'] ?>" onclick="return confirm('yakin?')"><span class="badge badge-danger">Hapus</span></a>
 							</td>
 						</tr>
 						<?php $no++ ?>

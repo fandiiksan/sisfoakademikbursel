@@ -77,11 +77,11 @@
 							</td>
 							<td width="200">
 								<?php if (isset($sis['id_nilai'])): ?>
-								<a href="<?= base_url() ?>penilaian/edit/<?= $sis['id_nilai'] ?>/<?= $r ?>"><span class="badge badge-warning">Edit Nilai</span></a>
+								<a href="<?= site_url() ?>penilaian/edit/<?= $sis['id_nilai'] ?>/<?= $r ?>"><span class="badge badge-warning">Edit Nilai</span></a>
 								<?php else: ?>
-								<a href="<?= base_url() ?>penilaian/tambah/<?= $r ?>/<?= $sis['id'] ?> "><span class="badge badge-primary">Tambah Nilai</span></a>
+								<a href="<?= site_url() ?>penilaian/tambah/<?= $r ?>/<?= $sis['id'] ?> "><span class="badge badge-primary">Tambah Nilai</span></a>
 								<?php endif ?>
-								<a href="<?= base_url() ?>penilaian/detailSiswa/<?= $r ?>/<?= $sis['id'] ?>"><span class="badge badge-success">Detail</span></a>
+								<a href="<?= site_url() ?>penilaian/detailSiswa/<?= $r ?>/<?= $sis['id'] ?>"><span class="badge badge-success">Detail</span></a>
 							</td>
 						</tr>
 						<?php $no++ ?>

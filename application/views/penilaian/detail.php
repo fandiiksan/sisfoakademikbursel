@@ -147,7 +147,7 @@
 						<h6>Nilai Akhir : <?= $nilai['nilai_akhir'] ?></h6>
 					</div>
 				</div>
-				<a href="<?= base_url('nilaisiswa') ?>" type="button" class="btn btn-success float-right mb-5">Kembali</a>
+				<a href="<?= site_url('nilaisiswa') ?>" type="button" class="btn btn-success float-right mb-5">Kembali</a>
 			</div>
 		</div>
 	</div>

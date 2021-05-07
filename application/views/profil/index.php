@@ -5,7 +5,7 @@
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <div class="text-center">
-                            <img class="profile-user-img img-fluid img-circle" src="<?= base_url() ?>/assets/img/<?= $user['image'] ?>" alt="User profile picture">
+                            <img class="profile-user-img img-fluid img-circle" src="<?= site_url() ?>/assets/img/<?= $user['image'] ?>" alt="User profile picture">
                         </div>
                         <?php if ($user['id_role'] == 1 || $user['id_role'] == 2): ?>
                         <h3 class="profile-username text-center"><?= $user['username'] ?></h3>
@@ -72,16 +72,16 @@
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <?php if ($user['id_role'] == 1 || $user['id_role'] == 2): ?>
-                            <a href="<?= base_url() ?>profil/ubahadmin/">Edit Profil</a>
+                            <a href="<?= site_url() ?>profil/ubahadmin/">Edit Profil</a>
                         <?php elseif ($user['id_role'] == 3): ?>
-                            <a href="<?= base_url() ?>profil/ubahguru">Edit Profil</a>
+                            <a href="<?= site_url() ?>profil/ubahguru">Edit Profil</a>
                         <?php elseif ($user['id_role'] == 4): ?>
-                            <a href="<?= base_url() ?>profil/ubahsiswa">Edit Profil</a>
+                            <a href="<?= site_url() ?>profil/ubahsiswa">Edit Profil</a>
                         <?php endif ?>
                         <hr>
-                        <a href="<?= base_url() ?>profil/user">Ubah Password</a>
+                        <a href="<?= site_url() ?>profil/user">Ubah Password</a>
                         <hr>
-                        <a href="<?= base_url() ?>profil/foto">Ganti Foto Profil</a>
+                        <a href="<?= site_url() ?>profil/foto">Ganti Foto Profil</a>
                     </div>
                 </div>
             </div>

@@ -71,7 +71,7 @@
 					</div>
 					<button type="submit" name="tambah" class="btn btn-primary float-right">Ubah</button>
 				</form>
-				<a href="<?= base_url('guru') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
+				<a href="<?= site_url('guru') ?>" type="button" class="btn btn-success float-right mr-3">Kembali</a>
 			</div>
 		</div>
 	</div>
