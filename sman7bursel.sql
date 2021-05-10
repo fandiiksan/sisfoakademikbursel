@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 16 Apr 2021 pada 05.44
+-- Waktu pembuatan: 10 Bulan Mei 2021 pada 10.04
 -- Versi server: 10.4.18-MariaDB
 -- Versi PHP: 7.4.16
 
@@ -42,7 +42,8 @@ CREATE TABLE `asesmen` (
 INSERT INTO `asesmen` (`id`, `aspek`, `deskripsi`, `id_mengajar`, `id_siswa`) VALUES
 (26, 'Nilai Menurun', '1. Perbanyak belajar dirumah,\r\n2. Kurangi bermain,', 30, 190),
 (27, 'Penurunan Nilai', 'Mungkin karena terlalu banyak main', 27, 278),
-(28, 'Nakal Disekolah', 'Sering Loncat Pagar', 27, 284);
+(28, 'Nakal Disekolah', 'Sering Loncat Pagar', 27, 284),
+(29, 'jangan banyak main', 'banyak main bisa membuat malas belajar', 33, 282);
 
 -- --------------------------------------------------------
 
@@ -132,7 +133,8 @@ INSERT INTO `jadwal` (`id`, `hari`, `jam`, `id_mengajar`, `id_ruangan`, `id_thn_
 (9, 'Rabu', '10:00 - 11:00', NULL, NULL, 1),
 (10, 'Senin', '07:30 - 09:30', 28, 22, 2),
 (11, 'Selasa', '11:06 - 12:08', 30, 11, 2),
-(12, 'Sabtu', '01:58 - 01:58', 39, 11, 2);
+(12, 'Sabtu', '01:58 - 01:58', 39, 11, 2),
+(13, 'Jumat', '08:00 - 09:00', 38, 11, 2);
 
 -- --------------------------------------------------------
 
@@ -306,7 +308,7 @@ INSERT INTO `nilai` (`id`, `u_tulis1`, `u_tulis2`, `u_tulis3`, `rata_tulis`, `u_
 (24, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 32, 279),
 (25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 32, 287),
 (26, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 33, 190),
-(27, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 33, 282),
+(27, 80, NULL, NULL, 80, 60, NULL, NULL, 60, 90, NULL, NULL, 90, 76.6667, 80, 75, 85, 80, 85, 80, 82.5, 80, 85, 82.5, 81, 81, 33, 282),
 (28, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 34, 277),
 (29, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 34, 286),
 (30, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 35, 278),
@@ -487,7 +489,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `image`, `email`, `password`, `id_role`) VALUES
 (24, '3067226443', '40101622_271209790376914_5240610938712752128_o.jpg', '', '$2y$10$zz2nc4EJKdtnhyR/nUUKJumB4ack2NfNCcBrswFE6JzftNhMHj6zu', 4),
-(64, '2063760662220003 ', 'default1.jpg', '', '$2y$10$sNXUrDLpQLhkx.s1mLNSYO3Mbvc8rOVyYL0odO.9E2lfhu5Cp0rc6', 3),
+(64, '2063760662220003 ', 'IMG20180426103759.jpg', '', '$2y$10$sNXUrDLpQLhkx.s1mLNSYO3Mbvc8rOVyYL0odO.9E2lfhu5Cp0rc6', 3),
 (67, '9243754656300033', 'default1.jpg', '', '$2y$10$5elPjx25/7fmLyk/X2lEd.53NOVObNxC/7YRlp2VV.yDqKfG1ceUW', 3),
 (68, '1563759661300113', 'default1.jpg', '', '$2y$10$S6ZghePMPR9DC7hQF3mW4O99DdMCSpsuok/7Mis5YyMZT9hYmPT.W', 3),
 (69, '0042765666131183', 'default1.jpg', '', '$2y$10$kWgVW2v6nduNhzEt1kSF8.Bbs5Y7iENnNgR1cu/nWguNuN6IvShme', 3),
@@ -512,7 +514,7 @@ INSERT INTO `user` (`id`, `username`, `image`, `email`, `password`, `id_role`) V
 (137, '0055287603 ', 'default1.jpg', '', '$2y$10$QNiUAoF3nOyD0F0a8uPG5uhc8QF/9wb7UzcJEcKFmDmiMh/khNCs6', 4),
 (138, '0068110187 ', 'default1.jpg', '', '$2y$10$ZKppibQLydx9xSNzOzl/I.vBd7hRDRT5BEodZ1ujvVvpE4jUizRPa', 4),
 (139, '0053954749 ', 'default1.jpg', '', '$2y$10$DvL1toC8w9eq96dX4FYaD.I3WTSibVd8K5ZIG/jpQOilEhITwTkIK', 4),
-(140, 'Salima Jafar', '', 'salimajafar@gmail.com', '$2y$10$0ZukVMWOGniGArQ8GBxS6OZqps.drelwuV.4O0vm.7nOJ/mqXnqym', 2);
+(142, 'kepalasekolah', '', 'salimajafar@gmail.com', '$2y$10$.pn6Ki.DUsCGVQLNdJc29eAeIi9fo.lVc99p07E5qk1u.iex.xJzu', 2);
 
 -- --------------------------------------------------------
 
@@ -692,7 +694,7 @@ ALTER TABLE `user_access_menu`
 -- AUTO_INCREMENT untuk tabel `asesmen`
 --
 ALTER TABLE `asesmen`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT untuk tabel `berita`
@@ -710,7 +712,7 @@ ALTER TABLE `guru`
 -- AUTO_INCREMENT untuk tabel `jadwal`
 --
 ALTER TABLE `jadwal`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT untuk tabel `jurusan`
@@ -776,7 +778,7 @@ ALTER TABLE `thn_ajar`
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=142;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=143;
 
 --
 -- AUTO_INCREMENT untuk tabel `user_access_menu`
