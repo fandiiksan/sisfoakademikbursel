@@ -33,7 +33,7 @@
       <!-- Main Sidebar Container -->
       <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="<?= site_url() ?>index.php/dashboard" class="brand-link">
+        <a href="<?= site_url() ?>dashboard" class="brand-link">
           <span class="brand-text font-weight-light">SMAN 7 Buru Selatan</span>
         </a>
         <!-- Sidebar -->
@@ -47,7 +47,7 @@
               <?php foreach ($menus as $menu): ?>
              
                   <li class="nav-item">
-                    <a href="<?= site_url() ?>index.php/<?= $menu['url'] ?>" class="nav-link">
+                    <a href="<?= site_url() ?><?= $menu['url'] ?>" class="nav-link">
                       <i class="<?= $menu['icon'] ?>"></i>
                       <p><?= $menu['judul'] ?></p>
                     </a>
