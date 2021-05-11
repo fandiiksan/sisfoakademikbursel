@@ -34,7 +34,7 @@
 						<?php foreach ($siswa as $sis) : ?>
 							<tr>
 								<td><?= $no; ?></td>
-								<td class="align-middle"><img src="<?= site_url() ?>assets/img/<?= $sis['image']; ?>" class="img-thumbnail" width=80></td>
+								<td class="align-middle"><img src="<?= base_url() ?>assets/img/<?= $sis['image']; ?>" class="img-thumbnail" width=80></td>
 								<td class="align-middle"><?= $sis['nama']; ?></td>
 								<td class="align-middle"><?= $sis['nis']; ?></td>
 								<td class="align-middle"><?= $sis['nama_rombel']; ?></td>

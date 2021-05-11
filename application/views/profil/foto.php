@@ -12,7 +12,7 @@
 					</div>
 				<?php endif ?>
 				<div class="form-group">
-					<img width="200" class="img-thumbnail" src="<?= site_url() ?>assets/img/<?= $user['image'] ?>">
+					<img width="200" class="img-thumbnail" src="<?= base_url() ?>assets/img/<?= $user['image'] ?>">
 				</div>
 				<div class="form-group">
 					<div class="custom-file">

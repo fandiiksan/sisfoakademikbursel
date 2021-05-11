@@ -5,7 +5,7 @@
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <div class="text-center">
-                            <img class="profile-user-img img-fluid img-circle" src="<?= site_url() ?>/assets/img/<?= $user['image'] ?>" alt="User profile picture">
+                            <img class="profile-user-img img-fluid img-circle" src="<?= base_url() ?>/assets/img/<?= $user['image'] ?>" alt="User profile picture">
                         </div>
                         <?php if ($user['id_role'] == 1 || $user['id_role'] == 2) : ?>
                             <h3 class="profile-username text-center"><?= $user['username'] ?></h3>

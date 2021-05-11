@@ -1,4 +1,4 @@
-<body class="hold-transition login-page" style="background-image: url('<?= site_url() ?>/assets/img/abcd.jpg');">
+<body class="hold-transition login-page" style="background-image: url('<?= base_url() ?>/assets/img/abcd.jpg');">
   <div class="login-box">
     <div class="login-logo">
       <p>
