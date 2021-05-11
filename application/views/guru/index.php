@@ -32,7 +32,7 @@
 						<?php foreach ($guru as $gur) : ?>
 							<tr>
 								<td class="align-middle"><?= $no; ?></td>
-								<td class="align-middle"><img src="<?= base_url() ?>assets/img/<?= $gur['image']; ?>" class="img-thumbnail" width=80></td>
+								<td class="align-middle"><img src="<?= site_url() ?>assets/img/<?= $gur['image']; ?>" class="img-thumbnail" width=80></td>
 								<td class="align-middle"><?= $gur['nama']; ?></td>
 								<td class="align-middle"><?= $gur['nip']; ?></td>
 
