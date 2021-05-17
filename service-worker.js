@@ -5,19 +5,7 @@ var urlsToCache = [
 	'/images/icon-512x512.png',
 	'/icon.png',
 	'/sw.js',
-	'/manifest.json',
-	'/dashboard',
-	'/siswa',
-	'/guru',
-	'/rombel',
-	'/jurusan',
-	'/mapel',
-	'/ruangan',
-	'/thnAjar',
-	'/mengajar',
-	'/jadwal',
-	'/admin',
-	'/profil'
+	'/manifest.json'
 ];
 
 self.addEventListener('install', function(event){
