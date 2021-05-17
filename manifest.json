@@ -3,7 +3,7 @@
     "short_name": "sisfoakademik",
     "description": "Sisfo Akademik sma",
     "theme_color": "#3367D6",
-    "background_color": "#00685d",
+    "background_color": "#000000",
     "display": "standalone",
   "start_url": "https://sisfosmanjuhbursel.space/",
   "icons": [
