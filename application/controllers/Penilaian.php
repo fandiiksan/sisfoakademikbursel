@@ -228,7 +228,7 @@ class Penilaian extends CI_Controller
 						<td width="200"></td>
 						<td></td>
 						<td width="500"></td>
-						<td width="200" align="right">Maros ........ 2020</td>
+						<td width="200" align="right">Namrole ........ 2020</td>
 				</tr>
 				<tr>
 						<td></td>
@@ -250,13 +250,13 @@ class Penilaian extends CI_Controller
 				</tr>
 				<tr>
 						<td></td>
-						<td>MAHYUDDIN, S.Pd.,M.M.</td>
+						<td>Dra. SALIMA JAFAR, M.Si</td>
 						<td></td>
 						<td>'. strtoupper($user["nama"]) .'</td>
 				</tr>
 				<tr>
 						<td></td>
-						<td>NIP. 197202072007011020</td>
+						<td>NIP. 196302061995022001</td>
 						<td></td>
 						<td>NIP. ' . $user["nip"] . '</td>
 				</tr>
