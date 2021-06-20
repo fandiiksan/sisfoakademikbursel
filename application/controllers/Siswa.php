@@ -191,7 +191,7 @@ class Siswa extends CI_Controller
 		$this->db->join('user', 'user.id = siswa.id_user');
 		$datas = $this->db->get()->result_array();
 
-		$html = '<h3 align="center">Data SMA Negeri 7 Buru Selatan</h3>
+		$html = '<h3 align="center">DATA SISWA SMA NEGERI 7 BURU SELATAN</h3>
 		<br>';
 		$html .= '<table style="text-align: center;" border="1" cellpadding="5" cellspacing="0">
 					<thead>

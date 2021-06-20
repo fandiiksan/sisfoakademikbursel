@@ -106,7 +106,7 @@ class Guru extends CI_Controller
 		//Ambil Data
 		$datas = $this->db->get('guru')->result_array();
 
-		$html = '<h3 align="center">DATA GURU SLBN 1 MAROS</h3>
+		$html = '<h3 align="center">DATA GURU SMA NEGERI 7 BURU SELATAN</h3>
 		<br>';
 		$html .= '<table align="center" style="text-align: center;" border="1" cellpadding="5" cellspacing="0">
 					<thead>
